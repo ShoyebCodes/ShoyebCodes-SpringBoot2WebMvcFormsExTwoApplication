@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   	  <!-- CSS only -->
+      <title>Document</title>
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   </head>
+   <body>
+      <h3>Employee Register</h3>
+      <pre>
+		<form method="post" action="save">
+		Name:  <input type="text" name="empName">
+		Pass:  <input type="password" name="empPwd">
+		Gen :  <input type="radio" name="empGen">Male<input type="radio" name="empGen">Female
+		Addr:  <textarea name="empAddr" ></textarea>
+		Proj:  <select name="empProj">
+		<option value="mno" >mno
+		<option value="pqr" selected>pqr
+	</select>
+		Langs: 
+			   <input type="checkbox" name="empLangs" value="ENG"> ENG
+			   <input type="checkbox" name="empLangs" value="TEL"> TEL
+			   <input type="checkbox" name="empLangs" value="KAN"> KAN
+			   <input type="checkbox" name="empLangs" value="HIN"> HIN
+	Clients:   <select name="empclients"  size="3" multiple>
+		<option value="alico">Alico
+		<option value="jordan">jordan
+		<option value="tempa">tempa
+		<option value="tla">tla		
+	</select>
+	
+	  <input type="submit"  value="Create" /> 
+	</form>
+	  </pre>
+   </body>
+</html>
